@@ -11,7 +11,8 @@ This may be challenging from a cost perspective since we need to send to LLM the
 Usually, the process looks like this: The user sends a question to chat. Chat history is being stored in a low-latency database (like DynamoDB), and each time the whole history + new question is sent to LLM. The response is being added to the database storage and also sent to the user.
 
 
-![image.png](attachment:15419b2f-1d8f-4143-b5e4-5340fb5186dd.png)
+<img width="1223" alt="image" src="https://github.com/MichaelShapira/reduce-tokens-in-llm-chat/assets/135519473/c58c0770-0cff-4407-a74a-d087d2d3cd6a">
+
 
 
 ## Approach to reduce the number of tokens
